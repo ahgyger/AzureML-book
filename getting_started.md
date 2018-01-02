@@ -16,7 +16,7 @@ As mentioned in the requirements, you will need an [An Azure Subscription](https
 
 ### Experimentation Account
 Now that we have the subscription up and running, log-in to the [Azure Portal](https://portal.azure.com) and click on "+NEW", "AI + Cognitive Services", and "Machine Learning Experimentation (preview)".
-![Crate an Machine Learning Experimentation](images/AzureAI.png)
+![Create an Machine Learning Experimentation](images/AzureAI.png)
 
 This will open a page with a few options:
 - **Experimentation account name** - the name you give to your experimentation account.
@@ -33,3 +33,8 @@ This will open a page with a few options:
 The options are fairly straight forward hopefully, when you have entered every fields, click on create.
 
 A few notes about this page, if you require to create multiple experimentation account, you can use other avenues. Azure Machine Learning comes with a command line interface, allowing to create any types of accounts (experimentation or model management). Alternatively, you can use Azure Template (to generate one, click on the **automation options** link).
+
+### Installing the workbench 
+Once the experimentation account is created, you can open the page to manage it. On this page you will find a link to install the Windows or Mac version of the workbench. 
+
+![Download ML Workbench](images/DownloadWorkbench.png)
