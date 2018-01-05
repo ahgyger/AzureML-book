@@ -35,6 +35,12 @@ The options are fairly straight forward hopefully, when you have entered every f
 A few notes about this page, if you require to create multiple experimentation account, you can use other avenues. Azure Machine Learning comes with a command line interface, allowing to create any types of accounts (experimentation or model management). Alternatively, you can use Azure Template (to generate one, click on the **automation options** link).
 
 ### Installing the workbench 
-Once the experimentation account is created, you can open the page to manage it. On this page you will find a link to install the Windows or Mac version of the workbench. 
+Once the experimentation account is created, you can open the page to manage it. On this page you will find a link to install the [Windows](https://aka.ms/azureml-wb-msi) or [Mac](https://aka.ms/azureml-wb-dmg) version of the workbench. 
 
 ![Download ML Workbench](images/DownloadWorkbench.png)
+
+Installation is rather simple, click on the above link, wait for a while and login to the workbench! You should see a screen similar and the one below. 
+![ML Workbench Screen](images/WorkbenchWelcomeScreen.png)
+
+### Installing the extensions 
+If you are using VS Code or Visual Studio to write your python code, you are in luck! If you are not using any of those, you can still access AML functionalities from the command-line interface.  
